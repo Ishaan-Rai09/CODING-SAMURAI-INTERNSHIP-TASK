@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&family=Roboto+Mono:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}  
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(download.jpg);
+    background-size: cover;
+
+   
+   
+}
+
+.calculator {
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    backdrop-filter: blur(4px);
+    box-shadow: 0px 3px 15px rgb(0, 47, 255)
+
+}
+
+input {
+    width: 320px;
+    border-color: red;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    cursor: pointer;
+    color: #000000;
+}
+
+input::placeholder {
+    color: #000000;
+}
+
+button {
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: rgb(136, 248, 126);
+    color: #ff0000;
+    font-size: 20px;
+    box-shadow: -8px -8px 15px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+button:hover{
+    background-color: lightgoldenrodyellow;
+    transition: 0.7s;
+}
+.equalBtn {
+    background-color: #fb7c14;
+}
+.buttonoperator{
+    background-color: #000000;
+}
+
+.operator {
+    color: #115201;
+}
+ 
